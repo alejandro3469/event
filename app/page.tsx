@@ -28,6 +28,22 @@ export default function Home() {
           <div className="address">Melchor Ocampo, MX | 5:00pm</div>
         </div>
       </section>
+
+      <section className="banner section2">
+        <div className={`${merriweather.className} info`}>
+          <div className="message">The wedding of</div>
+          <div className="image_container">
+            <div className={`${dancing_script.className} names`}>
+              <span className="first_person">Lilian & </span>
+              <span className="second_person">Alejandro</span>
+            </div>
+            <img src="/wed/Lake Michigan Beach Engagement Photos at Sunset.jpg" />
+            <div className="date">December 10, 2026 </div>
+          </div>
+          <div className="join_us">Join us</div>
+          <div className="address">Melchor Ocampo, MX | 5:00pm</div>
+        </div>
+      </section>
     </main>
   );
 }
