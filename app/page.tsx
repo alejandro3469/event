@@ -69,6 +69,12 @@ export default function Home() {
           <div className="join_us">{"Can't wait to celebrate with you"}</div>
         </div>
       </section>
+      <section className="banner">
+        <figure className={`${merriweather.className}`}>
+          <span className={`${merriweather.className}`}>OUR SONG</span>
+          <audio controls src="/strangers_in_the_night.mp3"></audio>
+        </figure>
+      </section>
     </main>
   );
 }
