@@ -21,8 +21,12 @@ export default function Home() {
               <span className="first_person">Lilian & </span>
               <span className="second_person">Alejandro</span>
             </div>
-            <img src="/wed/Lake Michigan Beach Engagement Photos at Sunset.jpg" />
-            <div className="date">December 10, 2026 </div>
+            <img className="image" src="/wed/Lake Michigan Beach Engagement Photos at Sunset.jpg" />
+
+            <div className="date">
+              <span className="date_line" />
+              <span>December 10, 2026</span>
+            </div>
           </div>
           <div className="join_us">Join us</div>
           <div className="address">Melchor Ocampo, MX | 5:00pm</div>
@@ -37,8 +41,11 @@ export default function Home() {
               <span className="first_person">Lilian & </span>
               <span className="second_person">Alejandro</span>
             </div>
-            <img src="/wed/Lake Michigan Beach Engagement Photos at Sunset.jpg" />
-            <div className="date">December 10, 2026 </div>
+            <img className="image" src="/wed/Lake Michigan Beach Engagement Photos at Sunset.jpg" />
+            <div className="date">
+              <span className="date_line" />
+              <span>December 10, 2026</span>
+            </div>
           </div>
           <div className="join_us">Join us</div>
           <div className="address">Melchor Ocampo, MX | 5:00pm</div>
