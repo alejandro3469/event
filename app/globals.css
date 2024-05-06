@@ -76,7 +76,7 @@ body {
   background-color: rgba(0, 0, 0, 0.308);
 }
 .image {
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 }
 .join_us {
     font-style: italic;
