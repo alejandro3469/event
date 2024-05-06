@@ -4,6 +4,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .banner {
   width: 100vw;
@@ -14,7 +16,7 @@
   position: relative;
   padding: 48px 24px;
 }
-.section2 {
+.details {
     margin-top: 120px;
 }
 body {
@@ -24,6 +26,26 @@ body {
   position: inherit;
   display: flex;
   padding-right: 45px;
+}
+.details .image_container .image {
+  padding-right: 0;
+  width: 50%;
+  padding: 0 16px;
+}
+.full_names {
+  display: flex;
+  flex-direction: column;
+}
+.full_names {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} 
+.full_name {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-transform: uppercase;
 }
 .names {
   text-align: center;
@@ -50,12 +72,16 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  letter-spacing: 1.6px;
+  letter-spacing: 2.4px;
 }
 
 .message {
   text-transform: uppercase;
   text-align: left;
+}
+.details .message {
+  text-transform: uppercase;
+  text-align: right;
 }
 .date {
   writing-mode: vertical-rl;
