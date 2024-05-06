@@ -54,6 +54,17 @@ export default function Home() {
               className="image"
               src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (9).jpg"
             />
+
+            <div className="full_names detalis_content">
+              <span className="full_name detail">
+                <span className="subtitle">Will exange vows on</span> December
+                10, 2026
+              </span>
+              <span className="full_name detail">
+                <span className="subtitle">Reception:</span> The Marriot LA, CA.
+                SEE MAPS
+              </span>
+            </div>
           </div>
           <div className="join_us">{"Can't wait to celebrate with you"}</div>
         </div>

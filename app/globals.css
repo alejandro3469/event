@@ -30,7 +30,20 @@ body {
 .details .image_container .image {
   padding-right: 0;
   width: 50%;
+  height: auto;
   padding: 0 16px;
+}
+.detalis_content {
+  position: absolute;
+  left: 60%;
+}
+.subtitle {
+  font-size: 10px;
+  text-transform: none;
+  font-style: italic;
+}
+.detail {
+  font-size: 12px;
 }
 .full_names {
   display: flex;
