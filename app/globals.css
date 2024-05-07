@@ -144,6 +144,22 @@ body {
   letter-spacing: 0.2px;
   text-align: left;
 }
+.date_squares {
+  display: flex;
+  justify-content: space-between;
+}
+.date_item {
+  display: flex;
+  flex-direction: column;
+}
+.date_numbers {
+  display: flex;
+  gap: 8px;
+}
+.date_number {
+  padding: 8px;
+  background-color: rgba(128, 128, 128, 0.155);
+}
 .link {
   text-decoration: underline;
   cursor: pointer;
@@ -151,4 +167,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.coming_soon {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.484);
 }

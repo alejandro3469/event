@@ -92,7 +92,33 @@ export default function Home() {
               src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (9).jpg"
             />*/}
           </div>
-          
+          <div>
+            <span className="coming_soon">Coming soon!</span>
+            <span className="date_squares">
+              <div className="date_item">
+                <span>Months</span>
+                <span className="date_numbers">
+                  <span className="date_number">2</span>
+                  <span className="date_number">9</span>
+                </span>
+              </div>
+              <div className="date_item">
+                <span>Days</span>
+                <span className="date_numbers">
+                  <span className="date_number">6</span>
+                  <span className="date_number">3</span>
+                  <span className="date_number">2</span>
+                </span>
+              </div>
+              <div className="date_item">
+                <span>Hours</span>
+                <span className="date_numbers">
+                  <span className="date_number">0</span>
+                  <span className="date_number">2</span>
+                </span>
+              </div>
+            </span>
+          </div>
         </div>
       </section>
 
