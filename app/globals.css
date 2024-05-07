@@ -189,6 +189,10 @@ body {
   height: 100%;
   width: auto;
 }
+.image_container_sides2 {
+  height: 100%;
+  width: auto;
+}
 .image_cover {
   background-color: #f3efec61;
   z-index: -5;
@@ -204,6 +208,33 @@ body {
   width: auto;
   position: absolute;
   left: -10%;
+  top: -10%;
+  z-index: -10;
+}
+.image_container_sides .image_cover {
+  background-color: #f3efec61;
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  left: -10%;
+  top: -10%;
+  position: absolute;
+}
+.image_container_sides2 .image_cover {
+  background-color: #f3efec61;
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  right: -10%;
+  top: -10%;
+  position: absolute;
+}
+
+.image_container_sides2 img{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  right: -10%;
   top: -10%;
   z-index: -10;
 }
