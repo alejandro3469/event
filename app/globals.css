@@ -226,7 +226,7 @@ body {
   height: 100%;
   width: 100%;
   right: -10%;
-  top: -10%;
+  top: 10%;
   position: absolute;
 }
 
@@ -235,8 +235,9 @@ body {
   width: auto;
   position: absolute;
   right: -10%;
-  top: -10%;
+  top: 10%;
   z-index: -10;
 }
 .blessings {
+  
 }
