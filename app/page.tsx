@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="banner details">
+      <section className="banner date_section">
         <div className={`${merriweather.className} info`}>
           <div className="message">The day</div>
           <div className="image_container">
