@@ -147,11 +147,12 @@ body {
 .date_squares {
   display: flex;
   justify-content: space-between;
-  gap: 8px;
+  gap: 16px;
 }
 .date_item {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .date_numbers {
   display: flex;
