@@ -32,7 +32,10 @@ export default function Home() {
               <span>December 10, 2026</span>
             </div>
           </div>
-          <div className="join_us">Join us</div>
+          <div className="join_us">
+            <span>Join us</span>
+            <span className="line2" />
+          </div>
           <div className="address">Melchor Ocampo, MX | 5:00pm</div>
         </div>
       </section>
@@ -67,7 +70,10 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="join_us">{"Can't wait to celebrate with you"}</div>
+          <div className={`join_us`}>
+            {"Can't wait to celebrate with you"}
+            <span className="line2" />
+          </div>
         </div>
       </section>
       <section className="banner">

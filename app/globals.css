@@ -17,10 +17,10 @@
   padding: 48px 24px;
 }
 .details {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 body {
-    background-color: #f3efec;
+  background-color: #f3efec;
 }
 .image_container {
   position: inherit;
@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-} 
+}
 .full_name {
   display: flex;
   flex-direction: column;
@@ -114,18 +114,27 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.308);
 }
+.line2 {
+  height: 0.8px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.308);
+}
 .image {
   /*filter: grayscale(100%);*/
 }
 .join_us {
-    font-style: italic;
-    letter-spacing: 0.2px;
-    text-align: left;
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 .address {
-    font-size: 10px;
-    letter-spacing: 0.2px;
-    text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  text-align: left;
 }
 .link {
   text-decoration: underline;
