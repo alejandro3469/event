@@ -188,10 +188,12 @@ body {
 .image_container_sides {
   height: 100%;
   width: auto;
+  display: none;
 }
 .image_container_sides2 {
   height: 100%;
   width: auto;
+  display: none;
 }
 .image_cover {
   background-color: #f3efec61;
@@ -210,6 +212,7 @@ body {
   left: -10%;
   top: -10%;
   z-index: -10;
+  display: none;
 }
 .image_container_sides .image_cover {
   background-color: #f3efec61;
@@ -228,6 +231,7 @@ body {
   right: -10%;
   top: 10%;
   position: absolute;
+  display: none;
 }
 
 .image_container_sides2 img{
@@ -237,6 +241,7 @@ body {
   right: -10%;
   top: 10%;
   z-index: -10;
+  display: none;
 }
 .blessings {
   
