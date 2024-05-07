@@ -94,6 +94,13 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor.
                 </div>
+                <div className="image_container_sides2">
+                  <span className="image_cover" />
+                  <img
+                    src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (2).jpg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>

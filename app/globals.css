@@ -198,6 +198,15 @@ body {
   top: -10%;
   position: absolute;
 }
+.image_cover2 {
+  background-color: #f3efec4f;
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  right: -10%;
+  top: -10%;
+  position: absolute;
+}
 .image_container_sides img{
   height: 100%;
   width: auto;
