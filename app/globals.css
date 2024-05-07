@@ -160,7 +160,7 @@ body {
 }
 .date_number {
   padding: 8px;
-  background-color: rgba(128, 128, 128, 0.155);
+  background-color: #E0E0E0;
 }
 .link {
   text-decoration: underline;
