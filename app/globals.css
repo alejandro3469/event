@@ -195,6 +195,7 @@ body {
   height: 100%;
   width: 100%;
   left: -10%;
+  top: -10%;
   position: absolute;
 }
 .image_container_sides img{
@@ -202,6 +203,7 @@ body {
   width: auto;
   position: absolute;
   left: -10%;
+  top: -10%;
   z-index: -10;
 }
 .blessings {
