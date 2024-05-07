@@ -189,9 +189,7 @@ body {
 .image_container_sides img{
   position: absolute;
   left: -50%;
-  display: none;
 }
 .blessings {
-  width: 100%;
   padding: 0 28%;
 }

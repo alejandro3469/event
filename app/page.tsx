@@ -89,10 +89,10 @@ export default function Home() {
                     alt=""
                   />
                 </div>
-                <span className="blessings">
+                <div className="blessings">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor.
-                </span>
+                </div>
               </div>
             </div>
           </div>
