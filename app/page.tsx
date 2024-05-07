@@ -106,7 +106,6 @@ export default function Home() {
                 <span className="date_numbers">
                   <span className="date_number">6</span>
                   <span className="date_number">3</span>
-                  <span className="date_number">2</span>
                 </span>
                 <span className="coming_soon aa">Days</span>
               </div>
