@@ -76,6 +76,29 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="banner details">
+        <div className={`${merriweather.className} info`}>
+          <div className="message">The day</div>
+          <div className="image_container">
+            <div className="full_names">
+              <span className="full_name name1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </div>
+            {/*<img
+              className="image"
+              src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (9).jpg"
+            />*/}
+          </div>
+          <div className={`join_us`}>
+            {"Can't wait to celebrate with you"}
+            <span className="line2" />
+          </div>
+        </div>
+      </section>
+
       <section className="banner">
         <figure className={`${merriweather.className}`}>
           <span className={`${merriweather.className}`}>OUR SONG</span>
