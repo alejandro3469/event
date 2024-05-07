@@ -182,14 +182,27 @@ body {
   flex-direction: column;
   gap: 8px;
 }
+.bless {
+  display: flex;
+}
 .image_container_sides {
-  width: 100px;
+  height: 100%;
+  width: auto;
+}
+.image_cover {
+  background-color: #f3efec4f;
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  left: -10%;
   position: absolute;
 }
 .image_container_sides img{
+  height: 100%;
+  width: auto;
   position: absolute;
-  left: -50%;
+  left: -10%;
+  z-index: -10;
 }
 .blessings {
-  padding: 0 28%;
 }

@@ -84,6 +84,7 @@ export default function Home() {
             <div className="">
               <div className="bless">
                 <div className="image_container_sides">
+                  <span className="image_cover" />
                   <img
                     src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (2).jpg"
                     alt=""
