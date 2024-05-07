@@ -84,7 +84,7 @@ export default function Home() {
             <div className="full_names">
               <span className="bless">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                eiusmod tempor.
               </span>
             </div>
             {/*<img
