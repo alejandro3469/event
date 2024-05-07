@@ -124,13 +124,6 @@ export default function Home() {
                 </span>
                 <span className="coming_soon aa">Minutes</span>
               </div>
-              <div className="date_item">
-                <span className="date_numbers">
-                  <span className="date_number">0</span>
-                  <span className="date_number">2</span>
-                </span>
-                <span className="coming_soon aa">Seconds</span>
-              </div>
             </span>
           </div>
         </div>
