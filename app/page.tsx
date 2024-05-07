@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Allura, Tangerine, Lato, Merriweather } from "next/font/google";
+import { VscLinkExternal } from "react-icons/vsc";
 
 // If loading a variable font, you don't need to specify the font weight
 const dancing_script = Tangerine({
@@ -62,7 +63,7 @@ export default function Home() {
               </span>
               <span className="full_name detail">
                 <span className="subtitle">Reception:</span> The Marriot LA, CA.
-                SEE MAPS
+                <span className="link">SEE MAPS{<VscLinkExternal />}</span>
               </span>
             </div>
           </div>
