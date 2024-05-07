@@ -182,3 +182,16 @@ body {
   flex-direction: column;
   gap: 8px;
 }
+.image_container_sides {
+  width: 100px;
+  position: absolute;
+}
+.image_container_sides img{
+  position: absolute;
+  left: -50%;
+  display: none;
+}
+.blessings {
+  width: 100%;
+  padding: 0 28%;
+}

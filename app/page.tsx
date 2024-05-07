@@ -80,17 +80,21 @@ export default function Home() {
       <section className="banner date_section">
         <div className={`${merriweather.className} info`}>
           <div className="message">The day</div>
-          <div className="image_container">
-            <div className="full_names">
-              <span className="bless">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </span>
+          <div className="">
+            <div className="">
+              <div className="bless">
+                <div className="image_container_sides">
+                  <img
+                    src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (2).jpg"
+                    alt=""
+                  />
+                </div>
+                <span className="blessings">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </span>
+              </div>
             </div>
-            {/*<img
-              className="image"
-              src="/wed/Lake Michigan Engagement Photos by Tylee Shay Photography (9).jpg"
-            />*/}
           </div>
           <div className="countdown">
             <span className="coming_soon">Coming soon!</span>
