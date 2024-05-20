@@ -141,10 +141,25 @@ export default function Home() {
       </section>
 
       <section className="banner">
-        <figure className={`${merriweather.className}`}>
-          <span className={`${merriweather.className}`}>OUR SONG</span>
-          <audio controls src="/strangers_in_the_night.mp3"></audio>
-        </figure>
+        <span className={`${merriweather.className}`}>OUR SONG</span>
+        <iframe
+          src="https://open.spotify.com/embed/track/14fNBhtYL6qERv2jd2gHFY?utm_source=generator"
+          width="100%"
+          height="352"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </section>
+      <section>
+        <iframe
+          src="https://open.spotify.com/embed/track/5NYQS0JkqRRfhlliy0P3Dv?utm_source=generator"
+          width="100%"
+          height="352"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
       </section>
     </main>
   );
